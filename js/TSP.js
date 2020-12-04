@@ -139,7 +139,7 @@ export default class TSP {
 
     ctx.lineWidth = 1 * dr
     ctx.strokeStyle = '#fcfc'
-    ctx.fillStyle = '#fff'
+    ctx.fillStyle = '#fcd'
     nodes.map(n => {
       ctx.beginPath()
       ctx.arc(n.x * dr, n.y * dr, r * dr, 0, 2 * Math.PI)
